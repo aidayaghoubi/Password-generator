@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: #064549;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.card{
+    width: 450px;
+    height: 426px;
+    background-color: #072227;
+    border-radius: 3px;
+    box-shadow: 0px 1px 10px #072227;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.pw-header{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 94%;
+    height: 70px;
+    position: relative;
+    box-shadow: 0px 1px 10px #2e3030;
+    border-radius:3px;
+    background-color: #4FBDBA;
+    margin-left:12px ;
+}
+
+#copy{
+    position: absolute;
+    right: 8px;
+    top: 11px;
+    font-size: 15px;
+    border: none;
+    padding: 5px 8px;
+    border-radius:0px;
+    background-color: #AEFEFF;
+    opacity: 0;
+}
+.show{
+    opacity: 1 !important;
+}
+#pw{    
+    text-align: left;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+.pw-body{
+    margin-top:2px;
+}
+
+.btn{
+    width: 15px;
+    height: 15px;
+    border: none;
+    font-size: 18px;
+}
+.Length{
+    width: 50px;
+    height: 32px;
+}
+.btn-wrapp{
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 8px auto;
+    
+}
+.btn-wrapp label{
+    font-size: 18px;
+    color: #AEFEFF;
+    letter-spacing: 1px;
+}
+#generate-btn{
+    background-color:#f57f30 ;
+    padding: 15px 0;
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+}
+.gene{
+    margin: 15px 18px;
+  
+}
+
+#alert{
+    color: red;
+    font-size: 10px;
+    text-align: center;
+    padding: -2px;
+    padding-top: 16px;
+    opacity: 0;
+}

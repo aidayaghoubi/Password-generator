@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>drawing app</title>
+</head>
+
+<body>
+    <div class="card">
+        <div class="pw-header">
+            <div class="pass">
+                
+                <apan id="pw"></apan>
+                <button id="copy">copy</button>
+            </div>
+        </div>
+        <p id="alert">
+            Password must have atleast 8 character include number and letter 
+        </p>
+        <div class="pw-body">
+            <div class="btn-wrapp">
+                <label>Password Length</label>
+                <input type="text" class="btn Length" >
+            </div>
+            <div class="btn-wrapp">
+                <label>Contain Uppercase Letters</label>
+                <input type="checkbox" class="btn upper">
+            </div>
+            <div class="btn-wrapp">
+                <label>Contain Lowercase Letters</label>
+                <input type="checkbox" class="btn lower">
+            </div>
+            <div class="btn-wrapp">
+                <label>Contain Numbers</label>
+                <input type="checkbox" class="btn number">
+            </div>
+            <div class="btn-wrapp">
+                <label>Contain Symbols</label>
+                <input type="checkbox" class="btn symbol">
+            </div>
+        </div>
+        <div class="gene">
+            <button id="generate-btn">GENERATE PASSWORD</button>
+        </pw>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
